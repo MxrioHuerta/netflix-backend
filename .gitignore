@@ -1,0 +1,49 @@
+# Node.js
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.test
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Docker
+docker-compose.yml
+*.dockerfile
+
+# Miscellaneous
+*.tgz
+*.swp
