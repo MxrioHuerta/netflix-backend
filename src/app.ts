@@ -26,7 +26,7 @@ mongoose.connect(MONGO_URI, {
 app.get('/ping', (req, res) => {
     res.json({message: 'Backend is working!'});
 });
-app.use('/api', movieRouter);
+// app.use('/api', movieRouter);
 app.use('/api', favoriteRouter);
 
 

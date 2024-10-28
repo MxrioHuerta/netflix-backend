@@ -40,10 +40,6 @@ Thumbs.db
 coverage/
 *.lcov
 
-# Docker
-docker-compose.yml
-*.dockerfile
-
 # Miscellaneous
 *.tgz
 *.swp
