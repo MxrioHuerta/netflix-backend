@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Iniciar la aplicación
-CMD ["node", "app.ts"]
+CMD ["npm", "run", "dev"]
